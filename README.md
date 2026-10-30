@@ -1,11 +1,15 @@
 # 6NEWS Greenwick
 
-This repository contains the 6NEWS Greenwick website, with ten news articles and ten independent Greenwick news images.
+Ten full-length articles for the Commonwealth of Greenwick, each with a separately generated editorial reconstruction. The site uses an original 6NEWS mark and the editor-supplied Greenwick flag (no third-party news branding).
 
-## Publishing
-Deploy the repository root via GitHub Pages (`main` branch, `/` root). Open `index.html` for local preview.
+## Deployment
 
-## Articles and imagery
-Each story has its own `images/story-<number>.jpg` file. Story records and image paths live in `articles-data.js`. To add a story, append a new record with a unique slug, and commit the image file alongside it.
+GitHub Pages: publish from the repository root of the `main` branch (or another existing deployment source). No build tools or external services are required. Open `index.html` for the site; article permalinks use `?story=<slug>` so they work on static hosting.
 
-All news events take place within the Commonwealth of Greenwick. Photographs are generated editorial depictions, not authentic event photography.
+## Adding an article
+
+Append a new object to `articles-data.js` (and optionally `articles.json`) with `slug`, `title`, `category`, `date`, `deck`, `location`, `image`, `caption`, `author`, `readingMinutes`, and `sections` where each section is `[heading, [paragraphs]]`. Add its corresponding image to `assets/` and the article will appear automatically on the homepage.
+
+## Editorial practice
+
+The news universe is Greenwick. Articles treat user-supplied Greenwick events as established. Do not invent witnesses, quotes, arrests, motives, election results or dates not set by the editor. Generated images are illustrative recreations and are labelled as such.
