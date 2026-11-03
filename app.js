@@ -150,5 +150,35 @@ document.addEventListener('keydown',e=>{
 });
 window.addEventListener('scroll',updateReadProgress,{passive:true});
 window.addEventListener('popstate',route);
+
+/* Persist the reader's theme. Without a preference, follow their OS setting. */
+const themeToggle=document.getElementById('theme-toggle');
+const themePreferenceKey='sixnews-theme';
+const themeQuery=window.matchMedia?window.matchMedia('(prefers-color-scheme: dark)'):null;
+function storedTheme(){try{const x=localStorage.getItem(themePreferenceKey);return x==='dark'||x==='light'?x:null}catch(e){return null}}
+function renderTheme(theme){
+  const dark=theme==='dark';
+  document.documentElement.setAttribute('data-theme',dark?'dark':'light');
+  document.documentElement.style.colorScheme=dark?'dark':'light';
+  const meta=document.querySelector('meta[name="theme-color"]');
+  if(meta)meta.setAttribute('content',dark?'#0d1723':'#09233a');
+  if(themeToggle){
+    themeToggle.setAttribute('aria-pressed',String(dark));
+    themeToggle.setAttribute('aria-label',dark?'Switch to light theme':'Switch to dark theme');
+    themeToggle.setAttribute('title',dark?'Light mode':'Dark mode');
+  }
+}
+renderTheme(storedTheme()||(themeQuery&&themeQuery.matches?'dark':'light'));
+if(themeToggle)themeToggle.addEventListener('click',()=>{
+  const next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
+  try{localStorage.setItem(themePreferenceKey,next)}catch(e){}
+  renderTheme(next);
+});
+if(themeQuery){
+  const systemChanged=()=>{if(!storedTheme())renderTheme(themeQuery.matches?'dark':'light')};
+  if(themeQuery.addEventListener)themeQuery.addEventListener('change',systemChanged);
+  else if(themeQuery.addListener)themeQuery.addListener(systemChanged);
+}
+
 route();
 })();
