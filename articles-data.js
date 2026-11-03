@@ -1,5 +1,49 @@
 window.SIXNEWS_ARTICLES = [
   {
+    "slug": "liam-smith-mp-killed-silvershore-carpark",
+    "category": "Politics",
+    "date": "2026-11-03",
+    "title": "Teal MP Liam Smith dies after machete attack in Silvershore shopping complex car park",
+    "deck": "Liam Smith MP has died following a machete attack at Silvershore Shopping Complex. The attacker has been described as a “radical left extremist”; key details remain unknown.",
+    "location": "Silvershore",
+    "sections": [
+      [
+        "Fatal attack at Silvershore Shopping Complex",
+        [
+          "Teal Member of Parliament Liam Smith has died following a machete attack in the car park of Silvershore Shopping Complex, an incident that has shaken the Commonwealth of Greenwick’s political community.",
+          "The attack took place in the shopping complex car park. Details about precisely when it occurred, the sequence of events and the time of Mr Smith’s death have not been provided for this report."
+        ]
+      ],
+      [
+        "Description of the attacker",
+        [
+          "The attacker has been described as a “radical left extremist”. The description forms part of the information reported about the incident, but the individual’s identity, the basis for that description and any further evidence about motive have not been supplied.",
+          "It is not yet known whether an arrest has been made or whether any charges have been laid. 6NEWS is not identifying a suspect or presenting an unverified account of how the attack unfolded."
+        ]
+      ],
+      [
+        "The scene in Silvershore",
+        [
+          "The location of the incident has been identified as the car park of Silvershore Shopping Complex. The image accompanying this article is an editorial reconstruction of an emergency-response scene, not an actual photograph taken at the scene.",
+          "The extent of any road or car park closures, the presence of witnesses and whether anyone else was harmed have not been established in the information available to 6NEWS."
+        ]
+      ],
+      [
+        "An MP’s death and the questions ahead",
+        [
+          "Mr Smith’s death leaves the Teal parliamentary group facing the loss of a serving member. It also raises wider questions about the security of elected representatives and the procedure for filling his parliamentary seat.",
+          "Statements from the Teal Party, Greenwick Police and the Prime Minister have not yet been supplied for this coverage. No comments are being attributed to them.",
+          "6NEWS Greenwick will continue reporting developments as further details of the investigation and any official response become available."
+        ]
+      ]
+    ],
+    "id": 11,
+    "image": "assets/liam-smith-silvershore-crime-scene.webp",
+    "caption": "6NEWS editorial reconstruction of the Silvershore Shopping Complex car park following the attack. Illustrative image, not an actual crime-scene photograph.",
+    "author": "6NEWS Greenwick Newsroom",
+    "readingMinutes": 3
+  },
+  {
     "slug": "westmarch-police-recruit-arrested-two-civilians",
     "category": "Crime",
     "date": "2026-10-30",
