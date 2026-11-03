@@ -345,3 +345,6 @@ html[data-theme="dark"] .footer-bottom{border-top-color:#2f4957}
   html[data-theme="dark"] .article h1,html[data-theme="dark"] .article-body,
   html[data-theme="dark"] .article-body h2,html[data-theme="dark"] .article .deck{color:#111!important}
 }
+
+/* Print identity and source are hidden on screen. */
+.print-only{display:none}

@@ -89,7 +89,7 @@ function story(slug){
   const media=(a.media||[]).map(m=>`<figure class="media-shot"><img src="${esc(m.src)}" alt="${esc(m.alt||'Censored image')}" loading="lazy" decoding="async"><figcaption>${esc(m.caption||'Image')}</figcaption></figure>`).join('');
   const related=all.filter(b=>b.slug!==a.slug).sort((x,y)=>Number(y.category===a.category)-Number(x.category===a.category)||String(y.date).localeCompare(String(x.date))).slice(0,3);
   main.innerHTML=`<div class="article-layout">
-    <article class="article">
+    <article class="article"><header class="print-only print-header"><div class="print-identity"><div class="print-wordmark">6NEWS</div><div class="print-identity-text">GREENWICK<small>NEWS &amp; CURRENT AFFAIRS</small></div></div><div class="print-edition">ARTICLE COPY</div></header>
       <div class="crumb"><a href="./">6NEWS Home</a><span aria-hidden="true">/</span><a href="${sectionURL(a.category)}" data-go-section="${esc(a.category)}">${esc(a.category)}</a><span aria-hidden="true">/</span><span>${esc(a.location)}</span></div>
       <span class="eyebrow">${esc(a.category)} <span aria-hidden="true">·</span> ${esc(a.location)}</span>
       <h1>${esc(a.title)}</h1>
@@ -98,7 +98,7 @@ function story(slug){
       <figure class="hero"><img src="${esc(a.image)}" alt="${esc(a.imageAlt||a.title)}" fetchpriority="high"><figcaption>${esc(a.caption)}</figcaption></figure>
       ${media?`<section class="media-gallery" aria-label="Article photo gallery"><h2>Images from the story</h2><div class="media-grid">${media}</div></section>`:''}
       <div class="article-body">${body}</div>
-      <div class="story-end"><p>6NEWS Greenwick reporting. Additional details will be added to this article when available.</p>
+      <footer class="print-only print-source"><div class="print-source-title">6NEWS GREENWICK</div><div>Original article: <span class="print-url">${esc(location.origin+location.pathname+"?story="+encodeURIComponent(a.slug))}</span></div></footer><div class="story-end"><p>6NEWS Greenwick reporting. Additional details will be added to this article when available.</p>
       <div class="article-end-links"><button type="button" class="btn" id="print">Print story</button><button type="button" class="btn" id="share">Copy story link</button><a class="btn" href="./">More 6NEWS stories</a></div></div>
       <h2 class="rule-title">More from 6NEWS</h2>
       <div class="related-grid">${related.map(card).join('')}</div>
