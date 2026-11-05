@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+<title id="t">The AI Charter Debate — 6NEWS editorial illustration</title>
+<desc id="d">Two opposing abstract parliamentary platforms framing a central digital charter. One side represents authenticity and the other self-determination.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#051a2c"/><stop offset=".49" stop-color="#0c3043"/><stop offset="1" stop-color="#142e46"/></linearGradient>
+ <linearGradient id="left" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d4b61"/><stop offset="1" stop-color="#12313d"/></linearGradient>
+ <linearGradient id="right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#273e64"/><stop offset="1" stop-color="#182b47"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".22"/><stop offset="1" stop-color="#ffffff" stop-opacity=".02"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8de5dd"/><stop offset=".5" stop-color="#dee6b3"/><stop offset="1" stop-color="#eeb575"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#76dcdf" stop-opacity=".46"/><stop offset="1" stop-color="#76dcdf" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="65" height="65" patternUnits="userSpaceOnUse"><path d="M 65 0 L 0 0 0 65" fill="none" stroke="#c3faff" stroke-width="1" opacity=".10"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#000" flood-opacity=".48"/></filter>
+ <filter id="blur"><feGaussianBlur stdDeviation="45"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect width="1600" height="900" fill="url(#grid)"/>
+<circle cx="770" cy="430" r="430" fill="url(#glow)"/>
+<circle cx="240" cy="110" r="230" fill="#007c9a" opacity=".18" filter="url(#blur)"/>
+<circle cx="1420" cy="740" r="290" fill="#cc7c4c" opacity=".18" filter="url(#blur)"/>
+<path d="M0 677 562 610 746 683 795 900H0Z" fill="#0c2637"/>
+<path d="M1600 665 1048 610 858 683 815 900h785Z" fill="#152941"/>
+<g opacity=".72" stroke="#4c7b88" stroke-width="3">
+<path d="M0 703 550 628 729 693"/><path d="M1600 703 1050 628 869 693"/>
+<path d="M0 747 550 680 717 741"/><path d="M1600 747 1050 680 883 741"/>
+<path d="M0 792 550 737 704 789"/><path d="M1600 792 1050 737 896 789"/>
+</g>
+<g filter="url(#shadow)">
+ <rect x="115" y="220" width="438" height="342" rx="28" fill="url(#left)" stroke="#8df0ed" stroke-opacity=".45" stroke-width="2"/>
+ <rect x="1047" y="220" width="438" height="342" rx="28" fill="url(#right)" stroke="#f8c48b" stroke-opacity=".4" stroke-width="2"/>
+ <rect x="122" y="227" width="424" height="328" rx="24" fill="url(#glass)"/>
+ <rect x="1054" y="227" width="424" height="328" rx="24" fill="url(#glass)"/>
+</g>
+<g fill="none" stroke-linejoin="round">
+ <path d="M286 323v-42l74-42 74 42v42" stroke="#82dfdc" stroke-width="9"/>
+ <rect x="265" y="328" width="190" height="119" rx="12" stroke="#82dfdc" stroke-width="8"/>
+ <path d="M285 362h150M285 389h150M285 416h150" stroke="#b5e9e7" stroke-width="7" opacity=".75"/>
+ <path d="M1212 379l49 49 95-108" stroke="#f1c89d" stroke-width="11" stroke-linecap="round"/>
+ <circle cx="1261" cy="368" r="98" stroke="#f1c89d" stroke-width="8"/>
+</g>
+<g text-anchor="middle" font-family="Arial,Helvetica,sans-serif">
+ <text x="334" y="499" fill="#bce8e9" font-weight="700" font-size="26" letter-spacing="4">AUTHENTICITY</text>
+ <text x="1265" y="499" fill="#f5d9ba" font-weight="700" font-size="26" letter-spacing="4">AUTONOMY</text>
+</g>
+<g filter="url(#shadow)">
+ <rect x="615" y="160" width="370" height="475" rx="25" fill="#f2f5ed" stroke="#bfe8e4" stroke-width="6"/>
+ <path d="M905 161v79q0 12 12 12h65" fill="#d0dedc"/>
+ <path d="M904 163 982 249h-66q-12 0-12-12Z" fill="#d9e2da"/>
+ <rect x="661" y="260" width="278" height="17" rx="8" fill="#1c5063" opacity=".29"/>
+ <rect x="661" y="298" width="278" height="11" rx="5" fill="#27596b" opacity=".26"/>
+ <rect x="661" y="326" width="221" height="11" rx="5" fill="#27596b" opacity=".26"/>
+ <path d="M662 397h275" stroke="#bbd2ce" stroke-width="3"/>
+ <circle cx="800" cy="480" r="67" fill="#155879"/>
+ <g stroke="#b4e8dd" stroke-width="5" fill="none">
+  <circle cx="800" cy="480" r="31"/><path d="M800 413v-25M800 546v25M733 480h-25M867 480h25M753 433l-17-17M848 527l17 17M753 527l-17 17M848 433l17-17"/>
+ </g>
+ <text x="800" y="221" fill="#12344b" text-anchor="middle" font-size="34" font-weight="800" font-family="Arial,Helvetica,sans-serif" letter-spacing="4">AI CHARTER</text>
+ <text x="800" y="587" fill="#255164" text-anchor="middle" font-size="20" font-weight="700" font-family="Arial,Helvetica,sans-serif" letter-spacing="2">THE MICRONATIONAL DEBATE</text>
+</g>
+<path d="M552 392h57M991 392h57" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+<circle cx="608" cy="392" r="11" fill="#94e7e4"/><circle cx="992" cy="392" r="11" fill="#f4c58b"/>
+<rect x="0" y="759" width="1600" height="141" fill="#041522" opacity=".89"/>
+<rect x="0" y="759" width="1600" height="3" fill="url(#gold)"/>
+<text x="108" y="816" fill="#8be5dd" font-size="24" font-weight="800" letter-spacing="4" font-family="Arial,Helvetica,sans-serif">6NEWS GREENWICK</text>
+<text x="107" y="868" fill="#fff" font-size="39" font-weight="800" font-family="Arial,Helvetica,sans-serif" letter-spacing=".1">WHO DECIDES WHAT MAKES A MICRONATION?</text>
+</svg>

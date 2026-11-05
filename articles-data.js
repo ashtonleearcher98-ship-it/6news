@@ -1,5 +1,72 @@
 window.SIXNEWS_ARTICLES = [
   {
+    "slug": "ai-charter-debate-greenwick-micronational-legitimacy",
+    "category": "Politics",
+    "date": "2026-11-06",
+    "title": "Who gets to define a micronation? AI Charter sparks debate as Greenwick challenges virtual-nation clause",
+    "deck": "An ethical AI charter backed by Slowjamastan, Flandrensis and Duckionary has divided opinion over authenticity, digital nation-building and who gets to decide what makes a micronation.",
+    "location": "Elderview / International",
+    "sections": [
+      [
+        "An ethical charter becomes a dispute over identity",
+        [
+          "A new Charter for the Ethical Use of Artificial Intelligence in Micronationalism has set off a debate over how far voluntary community standards should go, with the Commonwealth of Greenwick opposing a provision that classifies entirely virtual nation-building as geofiction rather than micronationalism.",
+          "The charter, dated 31 October 2026, lists the Grand Duchy of Flandrensis and the Republic of Slowjamastan as original signatories on 1 November, followed by the Parliamentary Monarchy of Duckionary on 2 November.",
+          "Its stated goal is to encourage responsible, transparent and ethical use of AI. But discussion has increasingly focused on whether an ethical guideline can also set a definition of which projects belong in the micronational movement."
+        ]
+      ],
+      [
+        "What the charter actually permits — and where it draws a line",
+        [
+          "The text does not impose a blanket prohibition on AI. Section III explicitly allows assistance with illustrations, graphic design, text, translations and administrative work. It recommends that creators disclose AI assistance in social-media posts and asks users to respect copyright.",
+          "Section IV argues that authentic micronational activity should retain a connection to real-world experiences and human effort. Section VI rejects deliberate deception, including AI-generated images presented as genuine photographs or as evidence of events, places or achievements that did not occur.",
+          "The most disputed provision is Section V, which says a project focused entirely on building and developing a country inside a virtual environment falls under geofiction rather than micronationalism.",
+          "That wording is narrower than a claim that any micronation using AI ceases to be a micronation. The distinction between AI as an assisting tool and wholly virtual nation-building is central to understanding the disagreement."
+        ]
+      ],
+      [
+        "Supporters argue shared standards protect credibility",
+        [
+          "The charter's advocates place authenticity, human creativity and genuine participation at the centre of their approach. Their argument is that a movement already vulnerable to dismissal as imaginary needs to be clear about the difference between physical achievements and computer-generated representations.",
+          "A participant in the debate identified as Laura defended the community's ability to set and enforce its own expectations, arguing that existing guidelines should be followed and asking who would police the community if micronationalists themselves could not.",
+          "Laura also expressed concern that projects presented as AI nations could weaken the credibility and potential autonomy of micronationalists more broadly. Those are arguments about community standards, not evidence that the charter's signatories possess legal authority over non-signatories."
+        ]
+      ],
+      [
+        "Greenwick rejects an external test of legitimacy",
+        [
+          "Prime Minister Sean Mannix MP and Technology Minister Adrian Beaumont MP issued a joint statement on 4 November formally opposing the charter in its present form. Their central objection is to Section V being treated as a universal test of micronational identity.",
+          "Greenwick's position is that each micronation's Federal Legislature, Legislative Assembly or other constitutionally authorised lawmaking body should decide whether its own government may use AI and under what safeguards.",
+          "In a further statement issued on 5 November, Mannix argued that micronationalism is rooted in the freedom to imagine, organise and build a nation on one's own terms. The government said it would not endorse the charter while supporting an alternative voluntary framework that preserves national legislative choice.",
+          "Greenwick does not dispute the need to be truthful about synthetic media. Its official response specifically rejects portraying a generated building, ceremony or public project as something physically completed when it is not. The disagreement is over who can define national legitimacy, rather than whether deception is acceptable."
+        ]
+      ],
+      [
+        "Slowjamastan response, petition and proposed arbitration",
+        [
+          "Greenwick has acknowledged a response from the Republic of Slowjamastan and defended its position in a 4 November communiqué. Slowjamastan is one of the charter's original signatories, although the signatory list does not establish that it was the charter's sole author.",
+          "The dispute has also produced a Greenwick-led opposition campaign on the Micronational Voices petition platform, which challenges Section V and calls for micronations to retain control over their own AI policies. The number of signatures and claimed national endorsements has not been independently established for this report.",
+          "Separate draft papers prepared for the Permanent Micro-Arbitration Court name Greenwick as the proposed claimant and Slowjamastan as the proposed respondent. Those documents are explicitly marked as not filed: no case number, accepted jurisdiction or consent to arbitration has been established.",
+          "The papers propose clarification of a voluntary charter's limits, rather than claiming the document already binds Greenwick or seeking to punish advocates for their opinions."
+        ]
+      ],
+      [
+        "The question still dividing micronationalists",
+        [
+          "Both sides acknowledge risks from deceptive AI imagery and the need for human participation. Where they differ is over the meaning and reach of community standards: advocates say definitions and disclosure help preserve credibility; Greenwick argues that voluntary guidance must not become an external determination of another community's identity.",
+          "The charter remains a voluntary text with signatories. Its endorsement does not, by itself, make its definitions binding on countries or projects that have not adopted it.",
+          "As the debate continues, the unresolved issue is whether the movement can establish shared expectations for honest use of new technology without turning those expectations into a gatekeeping system for micronational participation."
+        ]
+      ]
+    ],
+    "id": 12,
+    "image": "assets/ai-charter-debate-6news.svg",
+    "imageAlt": "Editorial illustration of two competing positions on the micronational AI Charter, authenticity and self-governance",
+    "caption": "6NEWS illustration: the debate centres on authenticity standards, virtual nation-building and the authority of individual micronations to govern AI use.",
+    "author": "6NEWS Greenwick Political Desk",
+    "readingMinutes": 6
+  },
+  {
     "slug": "liam-smith-mp-killed-silvershore-carpark",
     "category": "Politics",
     "date": "2026-11-03",
